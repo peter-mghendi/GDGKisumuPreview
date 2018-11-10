@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAFAFA</color>
+    <color name="colorPrimaryDark">#BDBDBD</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#424242</color>
+
+    <color name="colorPrimaryInverse">#212121</color>
+    <color name="colorPrimaryDarkInverse">#212121</color>
+    <color name="colorAccentInverse">#80CBC4</color>
+    <color name="colorTextPrimaryInverse">#F5F5F5</color>
+    <color name="colorTextSecondaryInverse">#EEEEEE</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="googleBlue">#4285F4</color>
+    <color name="googleRed">#DB4437</color>
+    <color name="googleYellow">#F4B400</color>
+    <color name="googleGreen">#0F9D58</color>
+
+</resources>

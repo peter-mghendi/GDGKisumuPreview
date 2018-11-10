@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">GDG Kisumu</string>
+    <string name="toggle_theme">Toggle theme</string>
+    <string name="kisumu_2018">Kisumu 2018</string>
+    <string name="gdg_logo">gdg logo</string>
+    <string name="devfest_2018">DevFest 2018</string>
+
+    <string name="schedule">Schedule</string>
+    <string name="schedule_desc">What\'s going on, when and where?</string>
+    <string name="schedule_icon">Schedule Icon</string>
+
+    <string name="livestream">LiveStream</string>
+    <string name="livestream_desc">Watch from wherever</string>
+    <string name="livestream_icon">Live stream icon</string>
+
+    <string name="resources">Resources</string>
+    <string name="resources_desc">Other helpful stuff</string>
+    <string name="resources_icon">Resources icon</string>
+
+    <string name="about_us">About Us</string>
+    <string name="about_us_desc">About GDG Kisumu</string>
+    <string name="about_icon">About icon</string>
+
+    <string name="title_activity_about">About Us</string>
+    <string name="we_need_your_feedback">We need your feedback!</string>
+    <string name="str_feedback">We need your feedback</string>
+    <string name="feedback">Feedback</string>
+
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_resources">Resources</string>
+    <string name="add_to_calendar">Add to calendar</string>
+    <string name="copy_stream_link">copy stream link</string>
+    <string name="title_activity_livestream">LivestreamActivity</string>
+    <string name="select_a_room">Select a room</string>
+    <string name="refresh">Refresh</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="open_resource">Open Resource</string>
+
+</resources>

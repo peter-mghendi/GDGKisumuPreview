@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/nunito_extra_light</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        <item name="android:textColorPrimaryInverse">@color/colorTextPrimaryInverse</item>
+        <item name="android:textColorSecondaryInverse">@color/colorTextSecondaryInverse</item>
+        <item name="ic_sentiment_one">@drawable/ic_sentiment_one_light</item>
+        <item name="ic_sentiment_two">@drawable/ic_sentiment_two_light</item>
+        <item name="ic_sentiment_three">@drawable/ic_sentiment_three_light</item>
+        <item name="ic_sentiment_four">@drawable/ic_sentiment_four_light</item>
+        <item name="ic_sentiment_five">@drawable/ic_sentiment_five_light</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryInverse</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimaryInverse</item>
+        <item name="android:fontFamily">@font/nunito_extra_light</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimaryInverse</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondaryInverse</item>
+        <item name="android:textColorPrimaryInverse">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondaryInverse">@color/colorTextSecondary</item>
+        <item name="ic_sentiment_one">@drawable/ic_sentiment_one_dark</item>
+        <item name="ic_sentiment_two">@drawable/ic_sentiment_two_dark</item>
+        <item name="ic_sentiment_three">@drawable/ic_sentiment_three_dark</item>
+        <item name="ic_sentiment_four">@drawable/ic_sentiment_four_dark</item>
+        <item name="ic_sentiment_five">@drawable/ic_sentiment_five_dark</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="AppTheme">
+        <item name="colorAccent">@color/googleBlue</item>
+    </style>
+
+    <style name="AppTheme.Dark.Blue" parent="AppTheme.Dark">
+        <item name="colorAccent">@color/googleBlue</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="AppTheme">
+        <item name="colorAccent">@color/googleRed</item>
+    </style>
+
+    <style name="AppTheme.Dark.Red" parent="AppTheme.Dark">
+        <item name="colorAccent">@color/googleRed</item>
+    </style>
+
+    <style name="AppTheme.Yellow" parent="AppTheme">
+        <item name="colorAccent">@color/googleYellow</item>
+    </style>
+
+    <style name="AppTheme.Dark.Yellow" parent="AppTheme.Dark">
+        <item name="colorAccent">@color/googleYellow</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="colorAccent">@color/googleGreen</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green" parent="AppTheme.Dark">
+        <item name="colorAccent">@color/googleGreen</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:fontFamily">@font/nunito_light</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <item name="android:background">?android:windowBackground</item>
+    </style>
+
+    <style name="BaseBottomSheetDialog" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+</resources>
