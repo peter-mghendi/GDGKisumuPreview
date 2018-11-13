@@ -6,15 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".LivestreamActivity"
-    tools:showIn="@layout/activity_livestream">
+    tools:context=".SpeakersActivity"
+    tools:showIn="@layout/activity_speakers">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:textSize="16sp"
-        android:text="@string/select_a_room"/>
+        android:text="Your hosts for the event:"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -40,7 +40,6 @@
                         android:padding="16dp">
 
                         <TextView
-                            android:id="@+id/tvRoomTitle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentTop="true"
@@ -49,7 +48,7 @@
                             android:fontFamily="@font/nunito_light"
                             android:gravity="center"
                             android:textSize="16sp"
-                            android:text="This particular room"/>
+                            android:text="Mr. Speaker Sir"/>
 
                         <ImageButton
                             android:id="@+id/btnRoomDetails"
@@ -70,7 +69,6 @@
                     android:layout_height="wrap_content"
                     android:visibility="gone"
                     android:padding="16dp">
-
                     <TextView
                         android:id="@+id/tvRoomDescription"
                         android:layout_width="wrap_content"
@@ -78,20 +76,8 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:textSize="16sp"
-                        android:text="Now: How to Git"/>
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_below="@id/tvRoomDescription"
-                        android:background="@color/transparent"
-                        android:textColor="?colorAccent"
-                        android:textSize="16sp"
-                        android:text="@string/copy_stream_link"
-                        android:textAllCaps="true" />
+                       android:text="@string/str_host_bio_test"/>
                 </RelativeLayout>
-
             </LinearLayout>
 
             <LinearLayout
@@ -111,7 +97,6 @@
                         android:padding="16dp">
 
                         <TextView
-                            android:id="@+id/tvRoomTitle1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentTop="true"
@@ -120,7 +105,7 @@
                             android:fontFamily="@font/nunito_light"
                             android:gravity="center"
                             android:textSize="16sp"
-                            android:text="This particular room"/>
+                            android:text="Mr. Speaker Sir"/>
 
                         <ImageButton
                             android:id="@+id/btnRoomDetails1"
@@ -141,7 +126,6 @@
                     android:layout_height="wrap_content"
                     android:visibility="gone"
                     android:padding="16dp">
-
                     <TextView
                         android:id="@+id/tvRoomDescription1"
                         android:layout_width="wrap_content"
@@ -149,20 +133,8 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:textSize="16sp"
-                        android:text="Now: How to Git"/>
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_below="@id/tvRoomDescription1"
-                        android:background="@color/transparent"
-                        android:textColor="?colorAccent"
-                        android:textSize="16sp"
-                        android:text="@string/copy_stream_link"
-                        android:textAllCaps="true" />
+                        android:text="@string/str_host_bio_test"/>
                 </RelativeLayout>
-
             </LinearLayout>
 
             <LinearLayout
@@ -182,7 +154,6 @@
                         android:padding="16dp">
 
                         <TextView
-                            android:id="@+id/tvRoomTitle2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentTop="true"
@@ -191,7 +162,7 @@
                             android:fontFamily="@font/nunito_light"
                             android:gravity="center"
                             android:textSize="16sp"
-                            android:text="This particular room"/>
+                            android:text="Mr. Speaker Sir"/>
 
                         <ImageButton
                             android:id="@+id/btnRoomDetails2"
@@ -212,7 +183,6 @@
                     android:layout_height="wrap_content"
                     android:visibility="gone"
                     android:padding="16dp">
-
                     <TextView
                         android:id="@+id/tvRoomDescription2"
                         android:layout_width="wrap_content"
@@ -220,21 +190,10 @@
                         android:layout_alignParentStart="true"
                         android:layout_alignParentTop="true"
                         android:textSize="16sp"
-                        android:text="Now: How to Git"/>
-
-                    <Button
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentEnd="true"
-                        android:layout_below="@id/tvRoomDescription2"
-                        android:background="@color/transparent"
-                        android:textColor="?colorAccent"
-                        android:textSize="16sp"
-                        android:text="@string/copy_stream_link"
-                        android:textAllCaps="true" />
+                        android:text="@string/str_host_bio_test"/>
                 </RelativeLayout>
-
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

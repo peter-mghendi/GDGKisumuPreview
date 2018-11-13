@@ -5,4 +5,5 @@
     <attr name="ic_sentiment_three" format="reference"/>
     <attr name="ic_sentiment_four" format="reference"/>
     <attr name="ic_sentiment_five" format="reference"/>
+    <attr name="color_background" format="reference"/>
 </resources>

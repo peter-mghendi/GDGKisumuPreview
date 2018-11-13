@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     Animation fadein;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         isDark = PreferenceManager.getDefaultSharedPreferences(this)
                 .getBoolean("darkTheme", false);
         if (isDark) setTheme(R.style.AppTheme_Dark);
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Class nextClass;
                 if (view.equals(cvSchedule)) nextClass = ScheduleActivity.class;
-                else if (view.equals(cvLivestream)) nextClass = LivestreamActivity.class;
+                else if (view.equals(cvLivestream)) nextClass = SpeakersActivity.class;
                 else if (view.equals(cvResources)) nextClass = ResourcesActivity.class;
                 else nextClass = AboutActivity.class;
                 startActivity(new Intent(MainActivity.this, nextClass));
