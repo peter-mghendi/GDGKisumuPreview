@@ -108,6 +108,12 @@ public class AboutActivity extends AppCompatActivity {
                 switch (i){
                     case BottomSheetBehavior.STATE_HIDDEN:
                     case BottomSheetBehavior.STATE_COLLAPSED:
+                        etName.setFocusable(false);
+                        etName.setFocusableInTouchMode(false);
+                        etEmail.setFocusable(false);
+                        etEmail.setFocusableInTouchMode(false);
+                        etFeedBack.setFocusable(false);
+                        etFeedBack.setFocusableInTouchMode(false);
 
                         tvFeedback.setText(R.string.str_feedback);
                         tvFeedback.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
@@ -118,6 +124,13 @@ public class AboutActivity extends AppCompatActivity {
                     case BottomSheetBehavior.STATE_DRAGGING:
                     case BottomSheetBehavior.STATE_SETTLING:
                     case BottomSheetBehavior.STATE_EXPANDED:
+                        etName.setFocusable(true);
+                        etName.setFocusableInTouchMode(true);
+                        etEmail.setFocusable(true);
+                        etEmail.setFocusableInTouchMode(true);
+                        etFeedBack.setFocusable(true);
+                        etFeedBack.setFocusableInTouchMode(true);
+
                         tvFeedback.setText(R.string.feedback);
                         tvFeedback.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
                         layoutBottomSheet.setBackgroundColor(getResources().getColor(background));
@@ -144,9 +157,6 @@ public class AboutActivity extends AppCompatActivity {
                 if (name.isEmpty()) {
                     Toast.makeText(AboutActivity.this, "Please enter your name.", Toast.LENGTH_SHORT).show();
                     etName.requestFocus();
-                } else if (email.isEmpty()){
-                    Toast.makeText(AboutActivity.this, "Please enter your email address.", Toast.LENGTH_SHORT).show();
-                    etEmail.requestFocus();
                 } else if (feedback.isEmpty()){
                     Toast.makeText(AboutActivity.this, "Please enter your feedback.", Toast.LENGTH_SHORT).show();
                     etFeedBack.requestFocus();

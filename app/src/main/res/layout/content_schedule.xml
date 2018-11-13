@@ -39,28 +39,24 @@
                     android:layout_marginStart="16dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/tvEventTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="This Particular Event"/>
 
                     <TextView
-                        android:id="@+id/tvEventHost"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="That One Host"/>
 
                     <TextView
-                        android:id="@+id/tvEventVenue"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="The Venue"/>
 
                     <TextView
-                        android:id="@+id/tvEventStatus"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -68,7 +64,6 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/btnNotify"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -102,28 +97,24 @@
                     android:layout_marginStart="16dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/tvEventTitle1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="This Particular Event"/>
 
                     <TextView
-                        android:id="@+id/tvEventHost1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="That One Host"/>
 
                     <TextView
-                        android:id="@+id/tvEventVenue1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="The Venue"/>
 
                     <TextView
-                        android:id="@+id/tvEventStatus1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -131,7 +122,6 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/btnNotify1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -164,28 +154,24 @@
                     android:layout_marginStart="16dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/tvEventTitle2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="This Particular Event"/>
 
                     <TextView
-                        android:id="@+id/tvEventHost2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="That One Host"/>
 
                     <TextView
-                        android:id="@+id/tvEventVenue2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="The Venue"/>
 
                     <TextView
-                        android:id="@+id/tvEventStatus2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -193,7 +179,6 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/btnNotify2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -227,28 +212,24 @@
                     android:layout_marginStart="16dp"
                     android:orientation="vertical">
                     <TextView
-                        android:id="@+id/tvEventTitle3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="This Particular Event"/>
 
                     <TextView
-                        android:id="@+id/tvEventHost3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="That One Host"/>
 
                     <TextView
-                        android:id="@+id/tvEventVenue3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
                         android:text="The Venue"/>
 
                     <TextView
-                        android:id="@+id/tvEventStatus3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="16sp"
@@ -256,7 +237,6 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/btnNotify3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"

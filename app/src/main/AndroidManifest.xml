@@ -18,19 +18,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".AboutActivity"
-            android:label="@string/title_activity_about"
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.Green">
+            android:theme="@style/AppTheme.Blue">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kmike.gdgkisumupreview.MainActivity" />
         </activity>
         <activity
-            android:name=".ScheduleActivity"
-            android:label="@string/title_activity_schedule"
+            android:name=".SpeakersActivity"
+            android:label="@string/title_activity_speakers"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.Blue">
+            android:theme="@style/AppTheme.Red">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kmike.gdgkisumupreview.MainActivity" />
@@ -45,14 +45,13 @@
                 android:value="com.example.kmike.gdgkisumupreview.MainActivity" />
         </activity>
         <activity
-            android:name=".LivestreamActivity"
-            android:label="@string/title_activity_livestream"
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/AppTheme.Red">
+            android:theme="@style/AppTheme.Green">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.kmike.gdgkisumupreview.MainActivity" />
         </activity>
     </application>
-
 </manifest>
