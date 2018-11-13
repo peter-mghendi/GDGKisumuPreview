@@ -27,7 +27,7 @@
                 android:fontFamily="@font/nunito_light"
                 android:gravity="center"
                 android:textSize="20sp"
-                android:text="This particular room"/>
+                android:text="Mr. Speaker Sir"/>
 
             <ImageButton
                 android:id="@+id/btnRoomDetails"
@@ -54,18 +54,7 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:textSize="16sp"
-            android:text="Now: How to Git"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_below="@id/tvRoomDescription"
-            android:background="@color/transparent"
-            android:textColor="?colorAccent"
-            android:textSize="16sp"
-            android:text="@string/copy_stream_link"
-            android:textAllCaps="true" />
+            android:text="@string/str_host_bio_test"/>
     </RelativeLayout>
 
 </LinearLayout>

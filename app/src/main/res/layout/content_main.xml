@@ -45,7 +45,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvSchedule"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -56,7 +55,6 @@
 
 
                 <TextView
-                    android:id="@+id/tvScheduleDesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -104,32 +102,30 @@
                 android:layout_height="match_parent"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_toStartOf="@id/ivLivestream"
+                android:layout_toStartOf="@id/ivHosts"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvLiveStream"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
                     android:focusable="false"
                     android:textSize="24sp"
                     android:textColor="?android:textColorPrimary"
-                    android:text="@string/livestream"/>
+                    android:text="@string/speakers"/>
 
 
                 <TextView
-                    android:id="@+id/tvLiveStreamDesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
                     android:focusable="false"
                     android:textSize="16sp"
                     android:textColor="?android:textColorSecondary"
-                    android:text="@string/livestream_desc"/>
+                    android:text="@string/speakers_desc"/>
             </LinearLayout>
             <ImageView
-                android:id="@+id/ivLivestream"
+                android:id="@+id/ivHosts"
                 android:layout_width="64dp"
                 android:layout_height="64dp"
                 android:layout_margin="4dp"
@@ -137,8 +133,8 @@
                 android:layout_centerVertical="true"
                 android:clickable="false"
                 android:focusable="false"
-                android:src="@drawable/ic_livestream"
-                android:contentDescription="@string/livestream_icon"/>
+                android:src="@drawable/ic_hosts"
+                android:contentDescription="@string/speakers_icon"/>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
@@ -168,7 +164,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvResources"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -178,7 +173,6 @@
                     android:text="@string/resources"/>
 
                 <TextView
-                    android:id="@+id/tvResourcesDesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -227,7 +221,6 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tvAbout"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -237,7 +230,6 @@
                     android:text="@string/about_us"/>
 
                 <TextView
-                    android:id="@+id/tvAboutDesc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
