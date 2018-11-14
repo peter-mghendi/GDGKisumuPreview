@@ -32,8 +32,17 @@
     <string name="feedback">Feedback</string>
 
     <string name="refresh">Refresh</string>
-    <string name="str_host_bio_test">This speaker has obviously either graduated from some well-known university with high grades or has some tragic sob-story that ends in a path to self-discovery. He is a master in an emerging technological field.</string>
-    <string name="gdg_about_pt_one">GDGs are local groups of developers who are specifically interested in Google products and APIs. Each local group is called a GDG chapter and can host a variety of technical activities for developers - just a few people getting together to watch our latest videos,to large gatherings with demos annd tech talks,to hackathons. GDG Kisumu is the Kisumu chapter, we also have Eldoret, Mombasa and Nairobi chapters. If you are a student then there is DSC in the universities.</string>
-    <string name="gdg_about_pt_two">We have various events in the course of the year majorly;\n● International Women\'s Day\n● Google IO extended\n● Google cloud\n● GDG Developer Festival commonly known as DEVFEST\nWe also occasionally have study jams.</string>
+    <string name="str_host_bio_test">"This speaker has obviously either graduated from some "
+        "well-known university with high grades or has some tragic sob-story that ends in a path "
+        "to self-discovery. He is a master in an emerging technological field."</string>
+    <string name="gdg_about_pt_one">"GDGs are local groups of developers who are specifically "
+        "interested in Google products and APIs. Each local group is called a GDG chapter and can "
+        "host a variety of technical activities for developers - from just a few people getting "
+        "together to watch our latest videos, to large gatherings with demos and tech talks, to "
+        "hackathons. GDG Kisumu is the Kisumu chapter; we also have Eldoret, Mombasa and Nairobi "
+        "chapters. If you are a student then there is DSC in the universities."</string>
+    <string name="gdg_about_pt_two">"We have various events in the course of the year majorly;\n● "
+        International Women\'s Day\n● Google IO extended\n● Google cloud\n● GDG Developer "
+        "Festival commonly known as DEVFEST\nWe also occasionally have study jams."</string>
 
 </resources>
